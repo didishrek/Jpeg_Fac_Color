@@ -52,6 +52,7 @@ int		main(int ac, char **av)
   destroy_jpeg_read(&cinfo);
   destroy_jpeg_write(&cinfo_out);
   free(img1);
+  free(img2);
   free(t_img);
   free(t_img_new);
   puts("Programme terminée correctement");
